@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мохнатый дом</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="d1.css">
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Мохнатый дом</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="d1.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="d3.html">Таблица</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="d2.html">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-bs-toggle="modal" data-bs-target="#contactModal">Новости</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Боковая панель -->
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h4 class="sidebar-title">Навигация</h4>
+                    <button class="btn-sidebar" onclick="window.location.href='#frontend'">Теплая и домашняя атмосфера</button>
+                    <button class="btn-sidebar" onclick="window.location.href='#backend'">Игровые элементы</button>
+                    <button class="btn-sidebar" onclick="window.location.href='#contact'">Контакты</button>
+                </div>
+            </div>
+
+            <!-- Контент -->
+            <div class="col-md-9 content">
+                <header class="text-center mb-4">
+                    <h1>Добро пожаловать!</h1>
+                    <p>Мы сделаем все, чтобы ваш любимец чувствовал себя как дома.</p>
+                    <img id="studentPhoto" src="photo_2024-12-08_17-01-14.jpg" 
+                    alt="Profile Picture" alt="Profile" class="img-fluid rounded-circle">
+                </header>
+
+                <section id="frontend" class="section">
+                    <h2>Теплая и домашняя атмосфера</h2>
+                    <p>
+                        "Мы создаем для ваших питомцев уют, как дома."
+                        <br><br>
+                        <strong>Что вас ждет:</strong>
+                        <ul>
+                            <li>Индивидуальные номера с мягкими лежанками и любимыми игрушками.</li>
+                            <li>Спокойная и дружелюбная обстановка для комфортного отдыха.</li>
+                            <li>Постоянная забота и внимание к каждому гостю.</li>
+                        </ul>
+                        "Мы понимаем, как важно, чтобы ваш любимец чувствовал себя спокойно, пока вы в отъезде. В нашей гостинице он окружен любовью и заботой, как дома!"
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://rutube.ru/play/embed/c03fa3ee75d4efe94dbf2c3439c1c2de" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen 
+                            style="width: 50%; height: 300px;">
+                        </iframe>
+                    </div>
+                </section>
+                
+
+                <section id="backend" class="section">
+                    <h2>Игровые элементы</h2>
+                    <p>
+                        "Веселье и активность каждый день!"
+                        <br><br>
+                        <strong>Что мы предлагаем:</strong>
+                        <ul>
+                            <li>Просторные игровые зоны для активных игр и прогулок.</li>
+                            <li>Игрушки и активности, чтобы питомец не скучал.</li>
+                            <li>Индивидуальный подход к характеру каждого хвостика: для активных — подвижные игры, для спокойных — уютные места для отдыха.</li>
+                        </ul>
+                        "Каждый день в нашей гостинице наполнен играми, общением и приключениями, чтобы ваш пушистый друг проводил время с радостью и удовольствием!"
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://rutube.ru/play/embed/56447d16a6548119f344da25d0f21fa5" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen 
+                            style="width: 50%; height: 300px;">
+                        </iframe>
+                    </div>
+                </section>
+
+                <section id="contact" class="section">
+                    <h2>Контакты</h2>
+                    <p>Номер нашей гостиницы: +7(999) 999-99-99</p>
+                </section>
+                
+    <footer>
+        <p>&copy; 2024 Коржевина Дарья. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
